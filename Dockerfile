@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
 
-ADD shell.sh /tmp/shell.sh
-RUN chmod 777 /tmp/shell.sh
-CMD ["/bin/bash","/tmp/shell.sh"]
+ADD start.sh /usr/bin/start.sh
+RUN chmod 777 /usr/bin/start.sh
+CMD ["/bin/bash","/usr/bin/start.sh"]

